@@ -1,0 +1,93 @@
+/* Reset style dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Pusatkan konten di tengah layar */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fbf3c4;
+}
+
+/* Kotak utama */
+.container {
+    background: #fbe567;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Judul */
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    padding: 8px 15px;
+    background: #895234;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #382410;
+}
+
+/* Tabel hasil */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 550px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #e6a800;
+    color: white;
+}
+
+/* Link tombol kembali */
+a button {
+    margin-top: 15px;
+    background: #895234;
+}
+
+a button:hover {
+    background: #382410;
+}

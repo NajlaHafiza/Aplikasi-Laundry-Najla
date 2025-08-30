@@ -1,0 +1,63 @@
+/* === GLOBAL STYLE === */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fbf3c4;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #444;
+}
+
+/* === TABLE STYLE === */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+table th {
+    background: #fbe567;
+    color: #a04d13;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background: #feffb6;
+}
+
+table tr:hover {
+    background: #ffd000;
+    transition: 0.3s;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-decoration: none;
+    padding: 10px 18px;
+    background: #a04d13;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: bold;
+    align-content: center;
+}
+
+a:hover {
+    background: #382410;
+}
